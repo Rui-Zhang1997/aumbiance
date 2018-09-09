@@ -4,7 +4,7 @@
   "description": "Aumbiance backend API",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,6 @@
     "url": "https://github.com/Rui-Zhang1997/aumbiance/issues"
   },
   "homepage": "https://github.com/Rui-Zhang1997/aumbiance#readme",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
